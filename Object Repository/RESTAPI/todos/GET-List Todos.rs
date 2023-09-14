@@ -43,10 +43,10 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, '[0].userId', 1)
-WS.verifyElementPropertyValue(response, '[0].id', 1)
-WS.verifyElementPropertyValue(response, '[0].title', &quot;delectus aut autem&quot;)
-WS.verifyElementPropertyValue(response, '[0].completed', false)
+WS.verifyElementPropertyValue(response, '[1].userId', 1)
+WS.verifyElementPropertyValue(response, '[1].id', 2)
+WS.verifyElementPropertyValue(response, '[1].title', &quot;quis ut nam facilis et officia qui&quot;)
+WS.verifyElementPropertyValue(response, '[1].completed', false)
 
 WS.verifyElementPropertyValue(response, '[3].userId', 1)
 WS.verifyElementPropertyValue(response, '[3].id', 4)
@@ -61,6 +61,11 @@ WS.verifyElementPropertyValue(response, '[34].completed', true)
 WS.verifyElementPropertyValue(response, '[38].userId', 2)
 WS.verifyElementPropertyValue(response, '[38].id', 39)
 WS.verifyElementPropertyValue(response, '[38].title', &quot;doloremque quibusdam asperiores libero corrupti illum qui omnis&quot;)
-WS.verifyElementPropertyValue(response, '[38].completed', false)</verificationScript>
+WS.verifyElementPropertyValue(response, '[38].completed', false)
+
+WS.verifyElementPropertyValue(response, '[199].userId', 10)
+WS.verifyElementPropertyValue(response, '[199].id', 200)
+WS.verifyElementPropertyValue(response, '[199].title', 'ipsam aperiam voluptates qui')
+WS.verifyElementPropertyValue(response, '[199].completed', false)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

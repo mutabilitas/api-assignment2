@@ -16,7 +16,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/comments/1</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/comments/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

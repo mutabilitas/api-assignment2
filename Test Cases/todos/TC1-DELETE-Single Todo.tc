@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1-DELETE-Single Todo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c070968-5502-407d-af5a-fd389488b51f</testCaseGuid>
+</TestCaseEntity>
