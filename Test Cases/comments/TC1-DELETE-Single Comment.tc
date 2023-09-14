@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1-DELETE-Single Comment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eca37d72-c118-4940-ab04-6d878c4f29d1</testCaseGuid>
+</TestCaseEntity>

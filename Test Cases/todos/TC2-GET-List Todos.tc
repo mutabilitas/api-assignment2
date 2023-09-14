@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2-GET-List Todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c4f2bd3-4d16-47a8-b418-317c808ba661</testCaseGuid>
+</TestCaseEntity>

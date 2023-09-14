@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3-GET-Single Todo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e113b5bc-a77d-46b5-95d3-cf0bf6c1ec24</testCaseGuid>
+</TestCaseEntity>
