@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET-List Todos</name>
+   <name>DELETE-Single Todo</name>
    <tag></tag>
-   <elementGuidId>0cb72874-b030-459e-8dca-923416f300fb</elementGuidId>
+   <elementGuidId>3f8442ea-413d-4a7d-a245-12f9e0adb31f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -15,8 +15,8 @@
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/todos</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/comments/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -41,26 +41,6 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-WS.verifyElementPropertyValue(response, '[0].userId', 1)
-WS.verifyElementPropertyValue(response, '[0].id', 1)
-WS.verifyElementPropertyValue(response, '[0].title', &quot;delectus aut autem&quot;)
-WS.verifyElementPropertyValue(response, '[0].completed', false)
-
-WS.verifyElementPropertyValue(response, '[3].userId', 1)
-WS.verifyElementPropertyValue(response, '[3].id', 4)
-WS.verifyElementPropertyValue(response, '[3].title', &quot;et porro tempora&quot;)
-WS.verifyElementPropertyValue(response, '[3].completed', true)
-
-WS.verifyElementPropertyValue(response, '[34].userId', 2)
-WS.verifyElementPropertyValue(response, '[34].id', 35)
-WS.verifyElementPropertyValue(response, '[34].title', &quot;repellendus veritatis molestias dicta incidunt&quot;)
-WS.verifyElementPropertyValue(response, '[34].completed', true)
-
-WS.verifyElementPropertyValue(response, '[38].userId', 2)
-WS.verifyElementPropertyValue(response, '[38].id', 39)
-WS.verifyElementPropertyValue(response, '[38].title', &quot;doloremque quibusdam asperiores libero corrupti illum qui omnis&quot;)
-WS.verifyElementPropertyValue(response, '[38].completed', false)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
